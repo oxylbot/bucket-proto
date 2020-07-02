@@ -90,7 +90,7 @@ message Reaction {
 }
 
 message Overwrite {
-    required uint32 id = 1;
+    required string id = 1;
     required string type = 2;
     required uint64 allow = 3;
     required uint64 deny = 4;
